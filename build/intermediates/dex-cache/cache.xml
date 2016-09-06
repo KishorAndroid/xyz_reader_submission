@@ -40,7 +40,7 @@
         jar="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.1"
-        sha1="713bd14c325b767527baec5217173bec8a77e87a">
+        sha1="c0733288864c9b912977c62e5ff5091aba0dc849">
         <dex dex="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_733429b5887d9ea943c8f5b776c2c7c13ae83cab/classes.dex" />
     </item>
     <item
@@ -68,7 +68,7 @@
         jar="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.1"
-        sha1="e43c2ccefd8f6cb6fe8d8925097f9fe919a2a281">
+        sha1="921f2bf0bf55680b83c18810fedf05ea5338c2cf">
         <dex dex="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8b43ef7e4a5c3c0563add367bb6f033016e0b07d/classes.dex" />
     </item>
     <item
