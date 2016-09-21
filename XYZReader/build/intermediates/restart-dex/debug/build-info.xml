@@ -1,38 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
     api-level="23"
     density="xhdpi"
-    format="7"
-    timestamp="980722107998"
-    token="-739456049785225967" >
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="3213998939928"
+    token="-739456049785225967"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="788" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="76" />
     <task
         name="verifier"
-        duration="0" />
+        duration="20" />
 
     <artifact
-        location="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_"
+        location="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
         type="RESOURCES" />
+    <artifact
+        location="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
 
-    <build timestamp="930336197000" >
+    <build
+        timestamp="2338734708336"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/outputs/apk/XYZReader-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="980722107998" >
+    <build
+        timestamp="3213998939928"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_"
+            location="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
             type="RESOURCES" />
+        <artifact
+            location="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
