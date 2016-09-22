@@ -90,12 +90,12 @@ public class ArticleDetailFragment extends Fragment implements
 
         mPhotoView = (ImageView) mRootView.findViewById(R.id.backdrop);
 
-        final Toolbar toolbar = (Toolbar) mRootView.findViewById(R.id.toolbar);
-        getActivityCast().setSupportActionBar(toolbar);
-        getActivityCast().getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //final Toolbar toolbar = (Toolbar) mRootView.findViewById(R.id.toolbar);
+        //getActivityCast().setSupportActionBar(toolbar);
+        //getActivityCast().getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mCollapsingToolbar =
-                (CollapsingToolbarLayout) mRootView.findViewById(R.id.collapsing_toolbar);
+                (CollapsingToolbarLayout) mRootView.findViewById(R.id.toolbar_layout);
 
         FloatingActionButton fab = (FloatingActionButton) mRootView.findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

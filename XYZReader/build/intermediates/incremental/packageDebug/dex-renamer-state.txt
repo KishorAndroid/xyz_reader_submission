@@ -1,4 +1,7 @@
-#Wed Sep 21 12:46:59 IST 2016
-base.0=/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Thu Sep 22 13:01:44 IST 2016
+base.0=/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8b43ef7e4a5c3c0563add367bb6f033016e0b07d
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.1=/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_733429b5887d9ea943c8f5b776c2c7c13ae83cab/classes.dex
+base.1=/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_733429b5887d9ea943c8f5b776c2c7c13ae83cab
+file.0=/Users/kishorandroid/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8b43ef7e4a5c3c0563add367bb6f033016e0b07d/classes.dex
