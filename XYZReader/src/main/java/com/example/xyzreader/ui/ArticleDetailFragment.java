@@ -10,7 +10,6 @@ import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ShareCompat;
-import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.format.DateUtils;
 import android.text.method.LinkMovementMethod;
@@ -41,6 +40,8 @@ public class ArticleDetailFragment extends Fragment implements
 
     private ImageView mPhotoView;
     private CollapsingToolbarLayout mCollapsingToolbar;
+
+    private FloatingActionButton fab;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -98,16 +99,7 @@ public class ArticleDetailFragment extends Fragment implements
                 (CollapsingToolbarLayout) mRootView.findViewById(R.id.toolbar_layout);
 
 
-        FloatingActionButton fab = (FloatingActionButton) mRootView.findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(Intent.createChooser(ShareCompat.IntentBuilder.from(getActivity())
-                        .setType("text/plain")
-                        .setText("Some sample text")
-                        .getIntent(), getString(R.string.action_share)));
-            }
-        });
+        fab = (FloatingActionButton) mRootView.findViewById(R.id.fab);
 
         bindViews();
         return mRootView;
@@ -152,6 +144,16 @@ public class ArticleDetailFragment extends Fragment implements
 
                         }
                     });
+
+            fab.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(Intent.createChooser(ShareCompat.IntentBuilder.from(getActivity())
+                            .setType("text/plain")
+                            .setText(mCursor.getString(ArticleLoader.Query.TITLE))
+                            .getIntent(), getString(R.string.action_share)));
+                }
+            });
         }
     }
 

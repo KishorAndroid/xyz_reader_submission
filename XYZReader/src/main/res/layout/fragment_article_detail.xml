@@ -86,6 +86,7 @@
         android:src="@drawable/ic_share"
         app:borderWidth="0dp"
         app:fabSize="normal"
+        android:backgroundTint="@color/colorPrimary"
         app:layout_anchor="@id/scrollview"
         app:layout_anchorGravity="bottom|right"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
