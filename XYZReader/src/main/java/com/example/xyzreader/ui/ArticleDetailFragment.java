@@ -97,6 +97,7 @@ public class ArticleDetailFragment extends Fragment implements
         mCollapsingToolbar =
                 (CollapsingToolbarLayout) mRootView.findViewById(R.id.toolbar_layout);
 
+
         FloatingActionButton fab = (FloatingActionButton) mRootView.findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
